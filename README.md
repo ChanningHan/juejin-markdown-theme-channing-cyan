@@ -1,2 +1,2 @@
-# juejin-markdown-theme-sexy-blue
-掘金markdown性感蓝主题
+# juejin-markdown-theme-channing-cyan
+掘金markdown channing-cyan主题
