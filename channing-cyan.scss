@@ -2,8 +2,10 @@ $monospace-font: Menlo, Monaco, Consolas, 'Courier New', monospace;
 $line-space: 22px;
 $primaryColor: #4dd0e1;
 $primaryDark1: #26c6da;
+$primaryDark2: #00ACC1;
 $primaryLight1: rgba(77, 208, 225, 0.1);
 $primaryLight2: rgba(77, 208, 225, 0.05);
+$primaryLight3: rgba(77, 208, 225, 0.08);
 
 .markdown-body {
   word-break: break-word;
@@ -128,7 +130,6 @@ $primaryLight2: rgba(77, 208, 225, 0.05);
     position: relative;
     padding: 4px 32px;
     width: max-content;
-
     &:before {
       border-bottom: 2px solid $primaryColor;
       width: 100%;
@@ -139,7 +140,7 @@ $primaryLight2: rgba(77, 208, 225, 0.05);
       position: absolute;
       left: 0;
       top: 0;
-      bottom: -1px;
+      bottom: -2px;
       margin: auto;
       background-size: 28px 28px;
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABRklEQVRYR2NkGGDAOMD2M4w6YDQERkNg+ITAppcfY/8zMv3wF+NdTUrZQpUQ2PT6cz8Dw/8CkMWMDIwNvqK8jcQ6gmIHNN19EaXPx1XPyMCghrCUKcpPlGc5MY6gyAE+Fx52MjL8j3cU5a1UYWXtZGBkEAVb+p8hxU+Mby5NHQCxnKEMaskzJ37uFmUetkmMjAzrfUX4woixHBJlZAA0y2EmPPYU4enLkhGeQIqRJDsAh+UgO7duNpD3IcVykkOA2paT5ABaWE60A2hlOdEO8D3/4CMDIyMfWvySFefoaYSoROh74eFXBgYGLiTNVLGc+BC48PAnAwMDG9QBVLOcaAd8P5ox+x/jf5AjGLgYfnwnKqv9/8/PwPO/kFF/MSj0cAKiouD/0bgYoixFU8RovWgJIX1EOYCQIZTIjzpgNARGQ2DAQwAAvHBaIdB7zxsAAAAASUVORK5CYII=);
@@ -170,7 +171,7 @@ $primaryLight2: rgba(77, 208, 225, 0.05);
       position: absolute;
       border: 2px solid $primaryColor;
       border-radius: 50%;
-      right: -13px;
+      right: -15px;
       top: 0;
       bottom: 0;
       margin: auto;
@@ -219,9 +220,9 @@ $primaryLight2: rgba(77, 208, 225, 0.05);
     max-width: 80%;
     border-radius: 6px;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto !important;
     object-fit: contain;
-    box-shadow: 2px 4px 7px #b3b3b3;
+    box-shadow: 0 0 16px rgba(110,110,110,0.45);
   }
 
   /* 图片描述文字 */
@@ -263,9 +264,9 @@ $primaryLight2: rgba(77, 208, 225, 0.05);
     word-break: break-word;
     border-radius: 2px;
     overflow-x: auto;
-    background-color: $primaryLight1;
+    background-color: $primaryLight3;
     color: $primaryDark1;
-    font-size: 0.9em;
+    //font-size: 0.9em;
     padding: 0.195em 0.4em;
   }
 
